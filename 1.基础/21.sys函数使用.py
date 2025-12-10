@@ -1,0 +1,24 @@
+# 常用内置函数dir（）来显示函数的方法
+import sys
+# sys是与python解释器进行交互的
+# 实现从程序外部向程序传递参数
+# sys.argv
+# 程序中间退出，age=0为正常退出
+# sys.exit([age])
+# 获取系统当前的编码，一般默认为ASCII
+# sys.getdefaultencoding()
+# 设置系统默认编码
+# reload(sys)
+# sys.setdefaultencoding('utf-8')
+# 获取文件编码方式
+# sys.getfilesystemencoding()
+
+# 获取指定模块搜索路径的字符串集合
+# sys.path
+# 获取当前系统操作平台
+# sys.platform
+# 包含与标准I/O流对应的流对象，如果需要更好的输出print不能满足要求，需以下进行重定向输出
+# sys.stdin
+# sys.stdout
+# sys.stderr
+# sys.modules是一个全局字典，每当导入模块时，python会加载它

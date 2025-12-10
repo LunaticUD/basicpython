@@ -1,0 +1,10 @@
+ID,Father,Mother,Sex,Object
+1,None,None,None,None
+2,None,None,None,None
+3,None,None,1,850
+4,1,None,2,803
+5,1,2,1,830
+6,1,2,2,790
+7,3,4,1,820
+8,3,6,1,835
+9,3,6,2,779
